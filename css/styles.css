@@ -1,0 +1,299 @@
+body {
+	background-color: rgba(174, 214, 241, 0.5);
+	font-family: 'Cantarell', sans-serif;
+	/*font-family: 'Fjalla One', sans-serif;*/
+}
+
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+/*Header*/
+.first-page{
+	background-image: url(../img/header-image.jpg);
+	background-repeat: no-repeat;
+}
+.hidden{
+	display: none;
+}
+header nav{
+	display: flex;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 24px;
+	line-height: 24px;
+	height: 100px;
+	background-color: #72A6CA
+}
+header ul{
+	display: flex;
+	margin-left: 403px;
+}
+header li{
+	padding: 40px 52px 38px 0px;
+}
+header img{
+	padding: 11px 51px;
+}
+header a{
+	text-decoration: none;
+	color: #37342f;
+}
+header h2{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 72px;
+	line-height: 72px;
+	color: #f15156;
+	text-align: center;
+	padding-top: 14px;
+}
+/* .introduction{
+	padding: 250px 205px 204px 205px; 
+} */
+.eat-humble-pie{
+    margin-top: 20px;
+	border: 2px solid #62605d;
+	padding: 50px;
+	background-color: rgba(250, 239, 239, 0.75)
+}
+.eat-humble-pie div{
+    display: flex;
+}
+header p{
+	padding-top: 40px;
+	text-align: left;
+	font-size: 24px;
+	color: #2d2824;
+	line-height: 29px;
+}
+.find-us-now p{
+	padding: 20px 31px 20px 33px;
+	/* margin: 32px 119px 0 119px; */
+	display: inline-block;
+	background-color: #f15156;
+	font-size: 30px;
+	line-height: 30px;
+	font-family: 'Fjalla One', sans-serif;
+	border-radius: 5px;
+	width: 149px;
+}
+.find-us-now a{
+	color: #faefef;
+	text-decoration: none;
+}
+/*Main*/
+main .about-us{
+	display: flex;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+.about-us div{
+	background-color: #f5e0e0;
+	padding: 53px 52px 77px 50px;
+}
+.about-us h3,
+.find-us h3{
+	font-family: 'Fjalla One', sans-serif;
+	color: #1F3665;
+	font-size: 48px;
+	line-height: 48px;
+	text-align: center;
+}
+.about-us h3{
+	padding-bottom: 27px;
+}
+.about-us p{
+	text-align: left;
+	font-size: 16px;
+	line-height: 19px;
+	padding-bottom: 26px;
+}
+.find-us{
+	/* background-image: url(../img/sky.jpeg); */
+	/* background-repeat: no-repeat; */
+    background-color: #72A6CA;
+	margin-bottom: 100px;
+	padding: 50px 55px 0px 55px;
+}
+.find-us h3{
+	padding-bottom: 49px;
+	line-height: 42px;
+}
+.find-us a{
+	color: #f15156;
+}
+.find-us div{
+	display: flex;
+	text-align: center;
+}
+.find-us h4{
+	font-size: 24px;
+	line-height: 18px;
+}
+.find-us li,
+.find-us p{
+	line-height: 20px;
+	font-size: 16px;
+}
+.location{
+	font-weight: 700;
+	padding-top: 27px;
+	padding-bottom: 23px;
+	line-height: 16px;
+}
+.time{
+	padding-top: 25px;
+	line-height: 16px;
+}
+.first-row,
+.second-row{
+	display: flex;
+}
+.first-row section{
+	padding-top: 60px;
+}
+.second-row section{
+	padding-top: 50px;
+}
+.first-column{
+	width: 218px;
+	padding-left: 40px;
+	padding-right: 65px;
+}
+.second-column{
+	width: 216px;
+	padding-right: 65px;
+}
+.third-column{
+	width: 230px;
+	padding-right: 20px;
+}
+/*Footer*/
+footer{
+	background-color: #72A6CA;
+	text-align: center;
+	padding: 53px 60px 53px 60px;
+}
+footer div{
+	display: flex;
+	margin: 33px 0;
+	margin-left: 304px;
+}
+
+
+footer div a{
+	padding-right: 19px;
+}
+footer h3,
+footer h4{
+	font-size: 24px;
+	line-height: 17px;
+}
+footer p{
+	font-size: 14px;
+	line-height: 17px;
+}
+
+header nav ul a:hover{
+	border-bottom: 2px solid #37342f;
+}
+.find-us-now a:hover{
+	text-decoration: underline;
+}
+
+/*---CONTACT US---*/
+.container-2{
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+	background-image: url(../img/flowers.jpeg);
+	background-repeat: no-repeat;
+}
+.contact-form{
+	border: 1px solid #545552;
+	padding: 53px 55px 51px 65px;
+	margin: 100px 206px 0px 203px;
+	background-color: rgba(250, 239, 239, 0.75)
+}
+.contact-information{
+	padding-bottom: 34px;
+	border-bottom: 2px solid #2d2824;
+}
+.contact-information h2{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 72px;
+	color: #f15156;
+	text-align: center;
+}
+.contact-information p{
+	font-size: 24px;
+	line-height: 30px;
+	text-align: left;
+	padding-top: 22px;
+}
+.contact-information :nth-child(1){
+	padding-top: 35px;
+}
+.contact-information :nth-child(3),
+.contact-information :nth-child(5){
+	padding-top: 0;
+}
+.order-for-pickup p{
+	font-size: 16px;
+	line-height: 20px; 
+}
+.pickup-location{
+	font-weight: 700;
+}
+/*form*/
+form{
+	padding-top: 50px;
+}
+.your-name input,
+.email-address input,
+.message input{
+	background-color: #faefef;
+	border: 1px solid #000;
+	width: 427px;
+	line-height: 45px;
+	padding-left: 12px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+.check-box input{
+	background-color: #faefef;
+	border: 1px solid #000;
+}
+.message input{
+	background-color: #faefef;
+	border: 1px solid #000;
+	padding-left: 12px;
+	max-width: 427px;
+    min-width: 427px;
+    max-height: 149px;
+    min-height: 149px;
+}
+label{
+	font-size: 18px;
+	line-height: 18px;
+}
+button{
+	background-color: #f15156;
+
+	color: #faefef;
+	font-size: 24px;
+	border-radius: 5px;
+	width: 190px;
+	padding: 16px 0;
+	border:  1px solid #faefef;
+}
+.send-button{
+	padding-left: 126px;
+	padding-top: 39px;
+}
+.send-button button:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
